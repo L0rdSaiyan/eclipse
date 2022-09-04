@@ -1,0 +1,19 @@
+body{
+
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#sol{
+
+    height: 200px;
+    width: 100px;
+    background-color: yellow;
+
+
+}
