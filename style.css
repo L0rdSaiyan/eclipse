@@ -7,7 +7,8 @@ body{
     justify-content: center;
     align-items: center;
     animation-name: ceu;
-    animation-duration: 5s;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
 
 }
 
@@ -32,22 +33,16 @@ body{
     position: absolute;
     margin-left: 900px;
     animation-name: eclipse;
-    animation-duration: 5s;
-
-}
-
-#btn{
-
-    position: absolute;
-    margin-top: 500px;
-
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
 }
 
 
 @keyframes eclipse{
 
-    from{margin-left: 900px;}
-    to{margin-left: -50px;}
+    0%{margin-left: 900px;}
+    50%{margin-right: 900px;}
+    100%{margin-right: 3000px;}
 
 }
 

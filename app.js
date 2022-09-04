@@ -2,11 +2,10 @@
 
 function eclipse(){
 
-    let body = document.body
-    let sol = document.createElement('div')
-    let lua = document.createElement('div')
-    body.appendChild(sol)
-    body.appendChild(lua)
-    sol.id = "sol"
-    lua.id = "lua"
+    let massa = document.getElementById('massa')
+    let sol = document.getElementById('massa1')
+    let lua = document.getElementById('massa2')
+    massa.id = 'container'
+    sol.id = 'sol'
+    lua.id = 'lua'
 }
