@@ -6,14 +6,46 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    animation-name: ceu;
+    animation-duration: 5s;
 
 }
 
 #sol{
 
     height: 200px;
-    width: 100px;
+    width: 200px;
     background-color: yellow;
+    display: flex;
+    border-radius: 100px;
+    position: absolute;
 
+}
+
+#lua{
+
+    height: 200px;
+    width: 200px;
+    background-color: gray;
+    display: flex;
+    border-radius: 100px;
+    position: absolute;
+    margin-left: 900px;
+    animation-name: eclipse;
+    animation-duration: 5s;
+
+}
+
+@keyframes eclipse{
+
+    from{margin-left: 900px;}
+    to{margin-left: -50px;}
+
+}
+
+@keyframes ceu{
+
+    from{background-color: white;}
+    to{background-color: black;}
 
 }
