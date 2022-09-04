@@ -16,10 +16,12 @@ body{
 
     height: 200px;
     width: 200px;
-    background-color: yellow;
+    background-image: url("soltextura.jpg");
+    background-size: cover;
     display: flex;
     border-radius: 100px;
     position: absolute;
+    box-shadow: 0px 0px 30px 10px rgb(220, 161, 52);
 
 }
 
@@ -27,7 +29,8 @@ body{
 
     height: 200px;
     width: 200px;
-    background-color: gray;
+    background-image: url("luatextura.jpg");
+    background-size: cover;
     display: flex;
     border-radius: 100px;
     position: absolute;
