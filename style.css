@@ -16,7 +16,7 @@ body{
 
     height: 200px;
     width: 200px;
-    background-image: url("soltextura.jpg");
+    background-image: url("imgs/soltextura.jpg");
     background-size: cover;
     display: flex;
     border-radius: 100px;
@@ -29,7 +29,7 @@ body{
 
     height: 200px;
     width: 200px;
-    background-image: url("luatextura.jpg");
+    background-image: url("imgs/luatextura.jpg");
     background-size: cover;
     display: flex;
     border-radius: 100px;
