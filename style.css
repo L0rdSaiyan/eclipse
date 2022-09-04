@@ -36,6 +36,14 @@ body{
 
 }
 
+#btn{
+
+    position: absolute;
+    margin-top: 500px;
+
+}
+
+
 @keyframes eclipse{
 
     from{margin-left: 900px;}
