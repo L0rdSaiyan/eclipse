@@ -131,8 +131,8 @@ h1 {
         background-color: black;
     }
 
-    100% {
-        background-color: black;
+    100%{
+        background-image: url("imgs/skystars.jpg");
     }
 
 }
