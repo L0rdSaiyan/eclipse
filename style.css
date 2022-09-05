@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 
-body{
+body {
 
     margin: 0;
     padding: 0;
@@ -15,7 +15,7 @@ body{
 
 }
 
-#sol{
+#sol {
 
     height: 200px;
     width: 200px;
@@ -28,7 +28,7 @@ body{
 
 }
 
-#lua{
+#lua {
 
     height: 200px;
     width: 200px;
@@ -43,20 +43,20 @@ body{
     animation-iteration-count: infinite;
 }
 
-#titulo{
+#titulo {
 
     display: flex;
     position: absolute;
     justify-content: center;
     align-items: center;
-    word-break:normal;
+    word-break: normal;
     margin-bottom: 500px;
     width: 500px;
     height: 500px;
-        
+
 }
 
-h1{
+h1 {
 
     color: black;
     position: absolute;
@@ -67,7 +67,7 @@ h1{
 
 }
 
-#icon{
+#icon {
 
     width: 50px;
     height: 50px;
@@ -80,53 +80,97 @@ h1{
 
 }
 
-#icon:hover{
+#icon:hover {
 
     transform: scale(1.1);
     cursor: pointer;
 
 }
 
-@keyframes eclipse{
+#nasa {
 
-    0%{margin-left: 900px;}
-    50%{margin-right: 900px;}
-    100%{margin-right: 3000px;}
-
-}
-
-@keyframes ceu{
-
-    0%{background-color: white;}
-    50%{background-color: black;}
-    100%{background-color: black;}
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    display: flex;
+    margin-top: 250px;
+    transition: 200ms;
 
 }
 
-@keyframes texto{
+#nasa:hover {
 
-    from{color: black;}
-    to{color: white;}
-}
-
-@keyframes gato{
-
-    from{background-color: white;}
-    to{background-color: white;}
+    cursor: pointer;
+    transform: scale(1.1);
 
 }
 
+@keyframes eclipse {
+
+    0% {
+        margin-left: 900px;
+    }
+
+    50% {
+        margin-right: 900px;
+    }
+
+    100% {
+        margin-right: 3000px;
+    }
+
+}
+
+@keyframes ceu {
+
+    0% {
+        background-color: white;
+    }
+
+    50% {
+        background-color: black;
+    }
+
+    100% {
+        background-color: black;
+    }
+
+}
+
+@keyframes texto {
+
+    from {
+        color: black;
+    }
+
+    to {
+        color: white;
+    }
+}
+
+@keyframes gato {
+
+    from {
+        background-color: white;
+    }
+
+    to {
+        background-color: white;
+    }
+
+}
 
 
-@media screen and (max-width:720px){
 
-    h1{
+@media screen and (max-width:720px) {
+
+    h1 {
 
         font-size: 20px;
 
     }
 
-    #icon{
+    #icon {
 
         margin-left: 370px;
 

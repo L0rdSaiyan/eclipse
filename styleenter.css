@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+body {
+
+    min-height: 100vh;
+    background-image: url("imgs/stars.jpg");
+    background-size: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+
+}
+
+#container h1 {
+
+    color: white;
+    margin-bottom: 350px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+    position: absolute;
+    transition: 200ms;
+}
+
+#container h1:hover {
+
+    letter-spacing: 5px;
+
+}
+
+#btn {
+
+    display: flex;
+    position: absolute;
+    border-radius: 6px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    width: 200px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-color: white;
+    background-color: rgb(59, 59, 69);
+    transition: 200ms;
+}
+
+#btn:hover {
+
+    background-color: transparent;
+    cursor: pointer;
+    font-weight: bold;
+    transform: scale(1.1);
+
+}
+
+#nasa {
+
+    width: 100px;
+    height: 100px;
+    margin-bottom: 500px;
+
+}
